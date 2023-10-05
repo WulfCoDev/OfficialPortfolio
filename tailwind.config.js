@@ -2,9 +2,9 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      primary: 'Orbitron',
-      secondary: 'Rajdhani',
-      tertiary: 'Aldrich',
+      primary: 'Roboto',
+      secondary: 'Dela Gothic One',
+      tertiary: 'Pixelify Sans',
     },
     container: {
       padding: {
@@ -23,9 +23,9 @@ module.exports = {
         accent: '#B809C3',
       },
       backgroundImage: {
-        site: "url('./assets/site-bg.jpg')",
-        about: "url('./assets/about.png')",
-        services: "url('./assets/services.png')",
+        site: "url('https://xmple.com/wallpaper/black-blue-gradient-linear-3840x2160-c2-000000-0000cd-a-105-f-14.svg')",
+        about: "url('../src/assets/me.png')",
+        skills: "url('../src/assets/react.png')",
       },
     },
   },
